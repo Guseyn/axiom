@@ -5,9 +5,9 @@ No Code End To End Test Solution For Web Applications
 
 - User presses button record
 - User engages with the web app: invokes event listeners, sends requests, redirects to different pages, etc.
-- The tool records every event from the user and takes a snapshot as `document.body.innerHTML`, then puts it the map: `[ { event: Event, html } ]`
+- The tool records every event from the user and takes snapshots as `document.body.innerHTML` after each event, then puts it in the map: `[ { event, html } ]`
 - User presses button stop
-- File(s) with records is being save according to the configuration
+- File(s) with the records is being save according to the configuration
 - User run cli command to run tests again
 
 Every recorded state of the HTML is considered as the correct behaviour
