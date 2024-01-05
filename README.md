@@ -26,6 +26,7 @@ Every recorded state of the HTML is considered as the correct behaviour
 - [ ] Function that records all the events
 - [ ] Function that allows to donload recordings
 - [ ] Function that can emulate all the events
+- [ ] Learn and implement browser direvers to run all tests 
 - [ ] Buttons record, pause and stop
 - [ ] Handle page redirects
 - [ ] Handle AJAX Requests
